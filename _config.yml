@@ -20,8 +20,8 @@ text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : T-DT电控组的技术博客
-description: > # this means to ignore newlines until "Language & timezone"
+title   : 电控组的技术博客
+description: 谁把描述写一下> # this means to ignore newlines until "Language & timezone"
   谁把描述写一下
 
 
