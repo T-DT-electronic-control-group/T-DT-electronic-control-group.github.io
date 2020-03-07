@@ -21,7 +21,7 @@ highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "t
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
 title   : 电控组的技术博客
-description: > # this means to ignore newlines until "Language & timezone"
+description: 这里是个说明> # this means to ignore newlines until "Language & timezone"
   
 
 
@@ -34,10 +34,10 @@ timezone: Asia/Shanghai # see https://en.wikipedia.org/wiki/List_of_tz_database_
 ## => Author and Social
 ##############################
 author:
-  type      : # "person" (default), "organization"
+  type      : organization# "person" (default), "organization"
   name      : T-DT实验室
-  url       :
-  avatar    : TDT.png # path or url of avatar image (square)
+  url       : 
+  avatar    : # path or url of avatar image (square)
   bio       : 这里也补充一下？
   email     :
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
@@ -74,7 +74,7 @@ paths:
 excerpt_separator: <!--more-->
 
 ## license
-license: CC-BY-NC-4.0 # "CC-BY-4.0", "CC-BY-SA-4.0", "CC-BY-NC-4.0", "CC-BY-ND-4.0"
+license: #CC-BY-NC-4.0 # "CC-BY-4.0", "CC-BY-SA-4.0", "CC-BY-NC-4.0", "CC-BY-ND-4.0"
 
 ## TOC
 toc:
@@ -118,7 +118,7 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: false # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: gitalk # false (default), "disqus", "gitalk", "valine", "custom"
 
   ## Disqus
   disqus:
@@ -127,11 +127,13 @@ comments:
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
-    clientID    : # GitHub Application Client ID
-    clientSecret: # GitHub Application Client Secret
-    repository  : # GitHub repo
-    owner       : # GitHub repo owner
-    admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+    clientID    : "686df3f75cb193fd4d8e" # GitHub Application Client ID
+    clientSecret: bade8d4cde8022d6c0d9448fd0de12ff592767d8 # GitHub Application Client Secret
+    repository  : "T-DT-electronic-control-group.github.io" # GitHub repo
+    owner       : "T-DT-electronic-control-group" # GitHub repo owner
+    admin:  # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+       - "T-DT-electronic-control-group"
+       - "rustylake"
       # - your GitHub Id
 
   ## Valine
